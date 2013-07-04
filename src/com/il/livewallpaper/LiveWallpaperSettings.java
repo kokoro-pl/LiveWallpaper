@@ -2,6 +2,7 @@ package com.il.livewallpaper;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
+import android.util.AttributeSet;
 
 public class LiveWallpaperSettings extends PreferenceActivity  {
     @Override

@@ -8,5 +8,32 @@
     <string name="description">Живие обои</string>
     
     <string name="menu_settings">Настройки</string>
+    
+    <string-array name="swimingObjectCount">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
 
+    <string name="settings_fon">Фон</string>
+    <string name="settings_speed">скорость</string>
+    <string name="settings_v_o">Вертикальные объекты</string>
+    <string name="settings_on_off">включить/выключить</string>
+    <string name="settings_curs">направление</string>
+    <string-array name="settings_curs_list">
+        <item>вверх</item>
+        <item>вниз</item>
+        <item>реверс</item>
+    </string-array>
+    <string name="settings_cnt_f">количество (передние)</string>
+    <string name="settings_speed_f">скорость (передние)</string>
+    <string name="settings_touch">касание (передние)</string>
+    <string name="settings_cnt_b">количество (задние)</string>
+    <string name="settings_speed_b">скорость (задние)</string>
+    <string name="settings_scroll">прокрутка</string>
+    <string name="settings_scroll_speed">скорость прокрутки</string>
+    <string name="settings_h_o">Горизонтальные объекты</string>
+    
 </resources>

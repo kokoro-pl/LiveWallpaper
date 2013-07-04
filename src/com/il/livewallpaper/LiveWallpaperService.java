@@ -60,7 +60,7 @@ public class LiveWallpaperService extends WallpaperService {
 			mDisplayWidth = dm.widthPixels;
 			mDisplayHeight = dm.heightPixels;
 
-			addGeneratedSwimingObjects( "right_b", 4 );
+			/*addGeneratedSwimingObjects( "right_b", 4 );
 			addGeneratedSwimingObjects( "left_b", 4 );
 			addGeneratedSwimingObjects( "vert_b", 4 );
 			addGeneratedSwimingObjects( "right_f", 4 );
@@ -68,7 +68,7 @@ public class LiveWallpaperService extends WallpaperService {
 			addGeneratedSwimingObjects( "vert_f", 4 );
 			
 			backgrouns[0] = decodeSampledBitmapFromResource(getResources(), R.drawable.back);
-			backgrouns[1] = decodeSampledBitmapFromResource(getResources(), R.drawable.med);
+			backgrouns[1] = decodeSampledBitmapFromResource(getResources(), R.drawable.med);*/
 			backgrouns[2] = decodeSampledBitmapFromResource(getResources(), R.drawable.front);
 			
 		}
@@ -232,10 +232,10 @@ public class LiveWallpaperService extends WallpaperService {
 					}
 					//		            Log.i("IL", canvas.getWidth()+" "+canvas.getHeight());
 					canvas.drawRGB(0, 0, 0);
-					//		            canvas.save();
-					//		            canvas.translate(-mDisplayWidth*mOffset, 0);
+					canvas.save();
+					canvas.translate(-mDisplayWidth*mOffset, 0);
 					canvas.drawBitmap(backgrouns[0],0,0, null);
-					//		            canvas.restore();
+					canvas.restore();
 
 					canvas.save();
 					canvas.translate(mDisplayWidth*(mOffset-1f), 0);

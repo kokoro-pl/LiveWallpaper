@@ -1,8 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
-    <CheckBoxPreference
-        android:key="myCheckBox"
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_fon">
+        <CheckBoxPreference
+        android:key="myCheckBox1"
         android:defaultValue="true"
-        android:summary="turn off to use white color..."
-        android:title="use black as background" />
+        android:summary="@string/settings_speed"
+        android:title="@string/settings_speed" />
+   	</PreferenceCategory>
+   	<PreferenceCategory android:title="@string/settings_h_o">
+   	    <CheckBoxPreference
+	        android:key="myCheckBox2"
+	        android:defaultValue="true"
+	        android:summary="@string/settings_on_off"
+	        android:title="@string/settings_on_off" />
+   	    <ListPreference android:title="@string/settings_curs"
+            android:key="mListPreference1"
+            android:summary="@string/settings_curs" android:entries="@array/settings_curs_list"
+            android:entryValues="@array/settings_curs_list" />
+    	<SeekBarPreference
+            android:defaultValue="5"
+            android:key="mSeekBarPreference1"
+            android:max="20"
+            android:summary="@string/settings_cnt_f"
+            android:title="@string/settings_cnt_f" />
+    	<SeekBarPreference
+            android:defaultValue="5"
+            android:key="mSeekBarPreference2"
+            android:max="30"
+            android:summary="@string/settings_speed_f"
+            android:title="@string/settings_speed_f" />
+    	<CheckBoxPreference
+	        android:key="myCheckBox3"
+	        android:defaultValue="true"
+	        android:summary="@string/settings_touch"
+	        android:title="@string/settings_touch" />
+    	<SeekBarPreference
+            android:defaultValue="5"
+            android:key="mSeekBarPreference4"
+            android:max="20"
+            android:summary="@string/settings_cnt_b"
+            android:title="@string/settings_cnt_b" />
+    	<SeekBarPreference
+            android:defaultValue="5"
+            android:key="mSeekBarPreference5"
+            android:max="30"
+            android:summary="@string/settings_speed_b"
+            android:title="@string/settings_speed_b" />
+    	<CheckBoxPreference
+	        android:key="myCheckBox4"
+	        android:defaultValue="true"
+	        android:summary="@string/settings_scroll"
+	        android:title="@string/settings_scroll" />
+    	<SeekBarPreference
+            android:defaultValue="5"
+            android:key="mSeekBarPreference6"
+            android:max="10"
+            android:summary="@string/settings_scroll_speed"
+            android:title="@string/settings_scroll_speed" />
+   	</PreferenceCategory>
+   	<PreferenceCategory android:title="@string/settings_v_o">
+        <CheckBoxPreference
+	        android:key="myCheckBox2_g2"
+	        android:defaultValue="true"
+	        android:summary="@string/settings_on_off"
+	        android:title="@string/settings_on_off" />
+   	    <ListPreference android:title="@string/settings_curs"
+            android:key="mListPreference1_g2"
+            android:summary="@string/settings_curs" android:entries="@array/settings_curs_list"
+            android:entryValues="@array/settings_curs_list" />
+    	<SeekBarPreference
+            android:defaultValue="5"
+            android:key="mSeekBarPreference1_g2"
+            android:max="20"
+            android:summary="@string/settings_cnt_f"
+            android:title="@string/settings_cnt_f" />
+    	<SeekBarPreference
+            android:defaultValue="5"
+            android:key="mSeekBarPreference2_g2"
+            android:max="30"
+            android:summary="@string/settings_speed_f"
+            android:title="@string/settings_speed_f" />
+   	</PreferenceCategory>
+    
 </PreferenceScreen>
