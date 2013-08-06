@@ -5,8 +5,8 @@ import android.graphics.Point;
 
 public class RightObject extends SwimmingObject {
 
-	public RightObject(Bitmap spriteBitmap, int fps, int frameCount) {
-		super(spriteBitmap, fps, frameCount);
+	public RightObject(Bitmap spriteBitmap, int fps, int frameCount, String type) {
+		super(spriteBitmap, fps, frameCount, type);
 		setVisibility(RIGHT_INVISIBLE|TOP_INVISIBLE|BOTTOM_INVISIBLE);
 	}
 

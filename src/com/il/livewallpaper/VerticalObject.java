@@ -4,8 +4,8 @@ import android.graphics.Bitmap;
 
 public class VerticalObject extends SwimmingObject {
 
-	public VerticalObject(Bitmap spriteBitmap, int fps, int frameCount) {
-		super(spriteBitmap, fps, frameCount);
+	public VerticalObject(Bitmap spriteBitmap, int fps, int frameCount, String type) {
+		super(spriteBitmap, fps, frameCount, type);
 		setVisibility(LEFT_INVISIBLE|TOP_INVISIBLE|RIGHT_INVISIBLE);
 	}
 

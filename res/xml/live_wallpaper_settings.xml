@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:orientation="vertical" >
+
+    <PreferenceCategory android:title="@string/settings_fon" />
+    <CheckBoxPreference
+        android:key="myCheckBoxFonEnabled"
+        android:defaultValue="true"
+        android:summary="@string/settings_on_off"
+        android:title="@string/settings_on_off" />
+
+   	<PreferenceCategory android:title="@string/settings_h_o" />
+    <CheckBoxPreference
+        android:key="mCheckBoxHEnabled"
+        android:defaultValue="true"
+        android:summary="@string/settings_on_off"
+        android:title="@string/settings_on_off" />
+    <ListPreference
+        android:key="mListPreferenceHFCount"
+        android:defaultValue="8"
+        android:entries="@array/settings_index_list30"
+        android:entryValues="@array/settings_index_list30"
+        android:summary="@string/settings_cnt_f"
+        android:title="@string/settings_cnt_f" />
+    <ListPreference
+        android:key="mListPreferenceHBCount"
+        android:defaultValue="8"
+        android:entries="@array/settings_index_list30"
+        android:entryValues="@array/settings_index_list30"
+        android:summary="@string/settings_cnt_b"
+        android:title="@string/settings_cnt_b" />
+    <ListPreference
+        android:key="mListPreferenceHFSpeed"
+        android:entries="@array/settings_index_list30"
+        android:entryValues="@array/settings_index_list30"
+        android:summary="@string/settings_speed_f"
+        android:title="@string/settings_speed_f" />
+    <ListPreference
+        android:key="mListPreferenceHBSpeed"
+        android:entries="@array/settings_index_list30"
+        android:entryValues="@array/settings_index_list30"
+        android:summary="@string/settings_speed_b"
+        android:title="@string/settings_speed_b" />
+    <CheckBoxPreference
+        android:key="myCheckBoxHTouch"
+        android:defaultValue="true"
+        android:summary="@string/settings_touch"
+        android:title="@string/settings_touch" />
+
+   	<PreferenceCategory android:title="@string/settings_v_o" />
+    <CheckBoxPreference
+            android:key="mCheckBoxVEnabled"
+            android:defaultValue="true"
+            android:summary="@string/settings_on_off"
+            android:title="@string/settings_on_off" />
+    <ListPreference
+            android:key="mListPreferenceVFCount"
+            android:defaultValue="4"
+            android:entries="@array/settings_index_list30"
+            android:entryValues="@array/settings_index_list30"
+            android:summary="@string/settings_cnt_f"
+            android:title="@string/settings_cnt_f" />
+    <ListPreference
+            android:key="mListPreferenceVBCount"
+            android:defaultValue="4"
+            android:entries="@array/settings_index_list30"
+            android:entryValues="@array/settings_index_list30"
+            android:summary="@string/settings_cnt_b"
+            android:title="@string/settings_cnt_b" />
+    <ListPreference
+            android:key="mListPreferenceVFSpeed"
+            android:entries="@array/settings_index_list30"
+            android:entryValues="@array/settings_index_list30"
+            android:summary="@string/settings_speed_f"
+            android:title="@string/settings_speed_f" />
+    <ListPreference
+            android:key="mListPreferenceVBSpeed"
+            android:entries="@array/settings_index_list30"
+            android:entryValues="@array/settings_index_list30"
+            android:summary="@string/settings_speed_b"
+            android:title="@string/settings_speed_b" />
+
+</PreferenceScreen>

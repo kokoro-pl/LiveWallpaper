@@ -8,6 +8,14 @@ import android.util.Log;
 
 public abstract class SwimmingObject {
 
+    private final String mType;
+    public final static String TYPE_VERTICAL_FRONT = "vert_f";
+    public final static String TYPE_VERTICAL_BACK = "vert_b";
+    public final static String TYPE_RIGHT_BACK = "right_b";
+    public final static String TYPE_RIGHT_FRONT = "right_f";
+    public final static String TYPE_LEFT_BACK = "left_b";
+    public final static String TYPE_LEFT_FRONT = "left_f";
+
     /**
      * Private fields
      */
@@ -24,7 +32,7 @@ public abstract class SwimmingObject {
     protected int mSpeed = 0;
     private int mNeededVisibility;
 
-    public SwimmingObject(Bitmap spriteBitmap, int fps, int frameCount) {
+    public SwimmingObject(Bitmap spriteBitmap, int fps, int frameCount, String type) {
         mCurrentSpriteBitmap = spriteBitmap;
         mSpriteHeight = spriteBitmap.getHeight();
         mSpriteWidth = spriteBitmap.getWidth() / frameCount;
@@ -33,6 +41,11 @@ public abstract class SwimmingObject {
         mNoOfFrames = frameCount;
         mAngle = (int) (Math.random()*60-30);
         mSpeed = (int) (Math.random()*5+5);
+        mType = type;
+    }
+
+    public String getType() {
+        return mType;
     }
 
     private void update(long currentTime) {
