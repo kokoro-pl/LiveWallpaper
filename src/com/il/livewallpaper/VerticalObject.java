@@ -14,11 +14,11 @@ public class VerticalObject extends SwimmingObject {
 			int displayHeight) {
 		super.resetSwimmingObject(translateX, displayWidth, displayHeight);
 		int x = (int) (Math.random()*(displayWidth-getWidth()-translateX));
-		int y = (int) (displayHeight);
+		int y = (displayHeight);
 		setYPos(y);
 		setXPos(x);
 	}
-	
+
 	@Override
 	protected void swim() {
 		mPosition.x += mSpeed*Math.sin(Math.PI/(180/mAngle));

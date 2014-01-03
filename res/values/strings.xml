@@ -2,25 +2,32 @@
 <resources>
 
     <string name="app_name">Live Wallpaper</string>
-    <string name="action_settings">Настройки</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
     
-    <string name="description">Живие обои</string>
+    <string name="description">Live wallpaper free software</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="settings_background">Background</string>
+    <string name="settings_background_speed">speed</string>
+    <string name="settings_v_o">Vertical objects</string>
+    <string name="settings_h_o">Horizontal objects</string>
+    <string name="settings_on_off">on/off</string>
+    <string name="settings_cnt_f">count (forward)</string>
+    <string name="settings_speed_f">speed (forward)</string>
+    <string name="settings_touch_f">touch (forward)</string>
+    <string name="settings_cnt_b">count (backward)</string>
+    <string name="settings_speed_b">speed (backward)</string>
+    <string name="settings_scroll_v">scroll</string>
+    <string name="settings_scroll_v_speed">scroll speed</string>
     
-    <string name="menu_settings">Настройки</string>
-
-
-    <string name="settings_fon">Фон</string>
-    <string name="settings_speed">скорость</string>
-    <string name="settings_v_o">Вертикальные объекты</string>
-    <string name="settings_on_off">включить/выключить</string>
-    <string name="settings_cnt_f">количество (передние)</string>
-    <string name="settings_speed_f">скорость (передние)</string>
-    <string name="settings_touch">касание (передние)</string>
-    <string name="settings_cnt_b">количество (задние)</string>
-    <string name="settings_speed_b">скорость (задние)</string>
-    <string name="settings_scroll">прокрутка</string>
-    <string name="settings_scroll_speed">скорость прокрутки</string>
-    <string name="settings_h_o">Горизонтальные объекты</string>
+    <string name="settings_background_speed_desc">speed description</string>
+    <string name="settings_on_off_desc">on/off description</string>
+    <string name="settings_cnt_f_desc">count (forward) description</string>
+    <string name="settings_speed_f_desc">speed (forward) description</string>
+    <string name="settings_touch_f_desc">touch (forward) description</string>
+    <string name="settings_cnt_b_desc">count (backward) description</string>
+    <string name="settings_speed_b_desc">speed (backward) description</string>
+    <string name="settings_scroll_v_desc">scroll description</string>
+    <string name="settings_scroll_v_speed_desc">scroll speed description</string>
     
 </resources>
