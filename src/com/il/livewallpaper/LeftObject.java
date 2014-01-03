@@ -1,7 +1,6 @@
 package com.il.livewallpaper;
 
 import android.graphics.Bitmap;
-import android.graphics.Point;
 
 public class LeftObject extends SwimmingObject {
 
@@ -9,17 +8,17 @@ public class LeftObject extends SwimmingObject {
 		super(spriteBitmap, fps, frameCount, type);
 		setVisibility(LEFT_INVISIBLE|TOP_INVISIBLE|BOTTOM_INVISIBLE);
 	}
-	
+
 	@Override
 	public void resetSwimmingObject(float translateX, int displayWidth,
 			int displayHeight) {
 		super.resetSwimmingObject(translateX, displayWidth, displayHeight);
-		int y = (int) (Math.random()*(displayHeight-getHeight()));
-    	setYPos(y);
 		int x = (int) (displayWidth-translateX);
+		int y = (int) (Math.random()*(displayHeight-getHeight()));
 		setXPos(x);
+		setYPos(y);
 	}
-	
+
 	@Override
 	protected void swim() {
 		mPosition.x -= mSpeed*Math.cos(Math.PI/(180/mAngle));

@@ -1,7 +1,6 @@
 package com.il.livewallpaper;
 
 import android.graphics.Bitmap;
-import android.graphics.Point;
 
 public class RightObject extends SwimmingObject {
 
@@ -14,10 +13,10 @@ public class RightObject extends SwimmingObject {
 	public void resetSwimmingObject(float translateX, int displayWidth,
 			int displayHeight) {
 		super.resetSwimmingObject(translateX, displayWidth, displayHeight);
-		int y = (int) (Math.random()*(displayHeight-getHeight()));
-    	setYPos(y);
 		int x = (int) (-getWidth()-translateX);
+		int y = (int) (Math.random()*(displayHeight-getHeight()));
 		setXPos(x);
+		setYPos(y);
 	}
 
 	@Override

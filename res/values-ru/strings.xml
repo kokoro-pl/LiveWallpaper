@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Live Wallpaper</string>
+    <string name="action_settings">Настройки</string>
+    
+    <string name="description">Бесплатные живые обои</string>
+    <string name="menu_settings">Настройки</string>
+
+    <string name="settings_background">Фон</string>
+    <string name="settings_background_speed">скорость</string>
+    <string name="settings_v_o">Вертикальные объекты</string>
+    <string name="settings_h_o">Горизонтальные объекты</string>
+    <string name="settings_on_off">включить/выключить</string>
+    <string name="settings_cnt_f">количество (передние)</string>
+    <string name="settings_speed_f">скорость (передние)</string>
+    <string name="settings_touch_f">касание (передние)</string>
+    <string name="settings_cnt_b">количество (задние)</string>
+    <string name="settings_speed_b">скорость (задние)</string>
+    <string name="settings_scroll_v">прокрутка</string>
+    <string name="settings_scroll_v_speed">скорость прокрутки</string>
+    
+    <string name="settings_background_speed_desc">Скорость движения фона</string>
+    <string name="settings_on_off_desc">Включает или выключает настройку</string>
+    <string name="settings_cnt_f_desc">Количество передних объектов</string>
+    <string name="settings_speed_f_desc">Скорость передних объектов</string>
+    <string name="settings_touch_f_desc">Прикосновение к передним объектам</string>
+    <string name="settings_cnt_b_desc">Количество задних объектов</string>
+    <string name="settings_speed_b_desc">Скорость задних объектов</string>
+    <string name="settings_scroll_v_desc">Вертикальная прокрутка</string>
+    <string name="settings_scroll_v_speed_desc">Скорость вертикальной прокрутки</string>
+    
+</resources>
