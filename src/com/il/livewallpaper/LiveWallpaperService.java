@@ -156,53 +156,62 @@ public class LiveWallpaperService extends WallpaperService implements SharedPref
 			return scaleTo;
 		}
 
-		public Bitmap decodeSampledBitmapFromResource(Resources res, int resId) {
+        public Bitmap decodeSampledBitmapFromResource(Resources res, int resId) {
 
-			// First decode with inJustDecodeBounds=true to check dimensions
-			final BitmapFactory.Options options = new BitmapFactory.Options();
-			options.inJustDecodeBounds = true;
-			BitmapFactory.decodeResource(res, resId, options);
+            // First decode with inJustDecodeBounds=true to check dimensions
+            final BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inJustDecodeBounds = true;
+            BitmapFactory.decodeResource(res, resId, options);
 
-			// Raw height and width of image
-			final int height = options.outHeight;
-			final int width = options.outWidth;
-			int inSampleSize = 1;
+            // Raw height and width of image
+            final int height = options.outHeight;
+            final int width = options.outWidth;
+//            int inSampleSize = 1;
 
-			float scaleTo = getScaleDimension(options, width, height);
-			int reqWidth = (int) (width * scaleTo);
-			int reqHeight = (int) (height * scaleTo);
+            float scaleTo = getScaleDimension(options, width, height);
+            int reqWidth = (int) (width * scaleTo);
+            int reqHeight = (int) (height * scaleTo);
 
-			if (height > reqHeight || width > reqWidth) {
-				int heightRatio = Math.round((float) height / (float) reqHeight);
-				int widthRatio = Math.round((float) width / (float) reqWidth);
-				inSampleSize = heightRatio < widthRatio ? heightRatio : widthRatio;
-			}
-			options.inSampleSize = inSampleSize;
+//            if (options.outHeight > reqHeight || options.outWidth > reqWidth) {
+//                inSampleSize = (int)Math.pow(2, (int) Math.round(Math.log(Math.max(reqHeight,reqWidth) /
+//                        (double) Math.max(options.outHeight, options.outWidth)) / Math.log(0.5)));
+//            }
+//            if (height > reqHeight || width > reqWidth) {
+//                int heightRatio = Math.round((float) height / (float) reqHeight);
+//                int widthRatio = Math.round((float) width / (float) reqWidth);
+//                inSampleSize = heightRatio < widthRatio ? heightRatio : widthRatio;
+//            }
+//            Log.i("IL", "inSampleSize " + inSampleSize);
+//            options.inSampleSize = inSampleSize;
 
-			// Decode bitmap with inSampleSize set
-			options.inJustDecodeBounds = false;
-			options.inDither = false;
-			options.inPurgeable = true;
-			Bitmap roughBitmap = BitmapFactory.decodeResource(res, resId, options);
+            // Decode bitmap with inSampleSize set
+            final BitmapFactory.Options options2 = new BitmapFactory.Options();
+            options2.inDither = false;
+            options2.inPurgeable = true;
+            options2.inInputShareable = true;
+            Bitmap roughBitmap = BitmapFactory.decodeResource(res, resId, options2);
 
-			Bitmap scaledBitmap;
-			while (true) {
-				try {
-					scaledBitmap = Bitmap.createScaledBitmap(roughBitmap, reqWidth, reqHeight, true);
-					break;
-				} catch (OutOfMemoryError e) {
-					try {
-						Thread.sleep(500);
-					} catch (InterruptedException e2) {
-						e.printStackTrace();
-					}
-				}
-			}
-			roughBitmap.recycle();
-			roughBitmap = null;
+//            Bitmap scaledBitmap;
+            while (true) {
+                try {
+//                    Log.i("IL", "createScaledBitmap!!! reqWidth=" + reqWidth + " " + options.outWidth +
+//                            "reqHeight=" + reqHeight + " " + options.outHeight
+//                            + " inSampleSize=" + inSampleSize );
+                    roughBitmap = Bitmap.createScaledBitmap(roughBitmap, reqWidth, reqHeight, false);
+                    break;
+                } catch (OutOfMemoryError e) {
+                    try {
+                        Thread.sleep(500);
+                    } catch (InterruptedException e2) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+//            roughBitmap.recycle();
+//            roughBitmap = null;
 
-			return scaledBitmap;
-		}
+            return roughBitmap;
+        }
 
 		@Override
 		public void onVisibilityChanged(boolean visible) {
