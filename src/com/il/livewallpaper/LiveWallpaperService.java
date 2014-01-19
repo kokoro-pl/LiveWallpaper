@@ -323,7 +323,11 @@ public class LiveWallpaperService extends WallpaperService implements SharedPref
 			Canvas canvas = null;
 			synchronized (mSurfaceHolder) {
 				try {
-					canvas = mSurfaceHolder.lockCanvas(null);
+                    try{
+                        canvas = mSurfaceHolder.lockCanvas(null);
+                    } catch (Exception e){
+                        Log.i("IL", "error " + e);
+                    }
 					if (canvas == null) {
 						return;
 					}
