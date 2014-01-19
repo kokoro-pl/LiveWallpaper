@@ -16,13 +16,103 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f54d666b-98c5-497c-ba2d-41ded982fa43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LiveWallpaper.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/dexedLibs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/android-support-v4.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/il/livewallpaper/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/il/livewallpaper/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/facebook_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/twitter_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/vkontakte_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/il/livewallpaper/Manifest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-ru/strings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/LeftObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/LiveWallpaperService$MyEngine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/LiveWallpaperService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/LiveWallpaperSettings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/MainActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/R$array.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/R$styleable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/R$xml.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/Renderer$RendererCallback.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/Renderer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/RightObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/SwimmingObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/il/livewallpaper/VerticalObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/dexedLibs/android-support-v4-17d40774beb60337161c2dff62b369be.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/dexedLibs/android-support-v4-2f94b821f5cb7a2ed6ce06e08ccc412f.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/dexedLibs/android-support-v4-5104124056be024aa606b7414fc9dd26.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/dexedLibs/android-support-v4-8da6dbca8c14e81578f291d3a7586781.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/dexedLibs/android-support-v4-ad7134c16c6a8f45d2038fc95feedaea.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/jarlist.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/facebook_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/front.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/left_b1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/left_b2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/left_b3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/left_b4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/left_b5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/left_f1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/left_f2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/left_f3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/left_f4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/left_f5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/med.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/right_b1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/right_b2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/right_b3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/right_b4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/right_b5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/right_f1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/right_f2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/right_f3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/right_f4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/right_f5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/touch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/twitter_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/vert_b1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/vert_b2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/vert_b3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/vert_b4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/vert_b5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/vert_f1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/vert_f2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/vert_f3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/vert_f4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/vert_f5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/res/drawable/vkontakte_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/resources.ap_" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/il_livewallpaper.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/xml/settings.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/il/livewallpaper/LeftObject.java" afterPath="$PROJECT_DIR$/src/com/il/livewallpaper/LeftObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/il/livewallpaper/LiveWallpaperService.java" afterPath="$PROJECT_DIR$/src/com/il/livewallpaper/LiveWallpaperService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/livewallpaper.iml" afterPath="$PROJECT_DIR$/livewallpaper.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/il/livewallpaper/LiveWallpaperSettings.java" afterPath="$PROJECT_DIR$/src/com/il/livewallpaper/LiveWallpaperSettings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/il/livewallpaper/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/il/livewallpaper/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/il/livewallpaper/Renderer.java" afterPath="$PROJECT_DIR$/src/com/il/livewallpaper/Renderer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/il/livewallpaper/RightObject.java" afterPath="$PROJECT_DIR$/src/com/il/livewallpaper/RightObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/il/livewallpaper/SwimmingObject.java" afterPath="$PROJECT_DIR$/src/com/il/livewallpaper/SwimmingObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/il/livewallpaper/VerticalObject.java" afterPath="$PROJECT_DIR$/src/com/il/livewallpaper/VerticalObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/arrays.xml" afterPath="$PROJECT_DIR$/res/values/arrays.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/attributes.xml" afterPath="$PROJECT_DIR$/res/values/attributes.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/xml/live_wallpaper_settings.xml" afterPath="$PROJECT_DIR$/res/xml/live_wallpaper_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/main.xml" afterPath="$PROJECT_DIR$/res/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/xml/wallpaper.xml" afterPath="$PROJECT_DIR$/res/xml/wallpaper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="livewallpaper.iws" />
@@ -85,40 +175,6 @@
   <component name="FavoritesManager">
     <favorites_list name="livewallpaper" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="LiveWallpaperSettings.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/il/livewallpaper/LiveWallpaperSettings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="49" selection-start="4581" selection-end="4581" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="2286">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LiveWallpaperService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/il/livewallpaper/LiveWallpaperService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="273" column="27" selection-start="12096" selection-end="12096" vertical-scroll-proportion="0.28595042" vertical-offset="4741" max-vertical-offset="7200">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3375#3391#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwimmingObject.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/il/livewallpaper/SwimmingObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="17" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="2772">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -180,7 +236,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -200,8 +255,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="livewallpaper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiveWallpaper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="livewallpaper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="livewallpaper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LiveWallpaper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,6 +343,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -280,19 +381,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -419,20 +507,20 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6342593" sideWeight="0.2989772" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41820988" sideWeight="0.4996066" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41691396" sideWeight="0.4996066" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.64094955" sideWeight="0.7010228" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20197418" sideWeight="0.62279296" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20197418" sideWeight="0.62279296" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37537092" sideWeight="0.62549174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -456,11 +544,20 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Merge branch 'master' of https://github.com/iLubenets/LiveWallpaper&#10;&#10;Conflicts:&#10;&#9;gen/com/il/livewallpaper/BuildConfig.java&#10;&#9;src/com/il/livewallpaper/LiveWallpaperService.java&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/iLubenets/LiveWallpaper&#10;&#10;Conflicts:&#10;&#9;gen/com/il/livewallpaper/BuildConfig.java&#10;&#9;src/com/il/livewallpaper/LiveWallpaperService.java&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/il/livewallpaper/LiveWallpaperSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="49" selection-start="4628" selection-end="4628" vertical-scroll-proportion="0.0" vertical-offset="1602" max-vertical-offset="2880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/il/livewallpaper/LiveWallpaperSettings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="89" column="49" selection-start="4581" selection-end="4581" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2412">
@@ -494,7 +591,6 @@
         <state line="44" column="43" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0" vertical-offset="1890" max-vertical-offset="6948">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3375#3391#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -514,21 +610,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/il/livewallpaper/Renderer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="28" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="1278" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/xml/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="370" selection-end="371" vertical-scroll-proportion="0.5013928" vertical-offset="0" max-vertical-offset="846" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/settings.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.48943663" vertical-offset="278" max-vertical-offset="846">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/il/livewallpaper/SwimmingObject.java">
@@ -574,43 +655,45 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/live_wallpaper_settings.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="41" selection-start="344" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/il/livewallpaper/LiveWallpaperSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="49" selection-start="4581" selection-end="4581" vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="2412">
+        <state line="89" column="49" selection-start="4628" selection-end="4628" vertical-scroll-proportion="0.0" vertical-offset="1602" max-vertical-offset="2880">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/graphics/Bitmap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="42" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.33333334" vertical-offset="419" max-vertical-offset="2592">
-          <folding />
-        </state>
+        <state line="36" column="42" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.33333334" vertical-offset="419" max-vertical-offset="2592" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/view/SurfaceHolder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="159" selection-end="159" vertical-scroll-proportion="0.19396552" vertical-offset="0" max-vertical-offset="1440">
-          <folding />
-        </state>
+        <state line="6" column="17" selection-start="159" selection-end="159" vertical-scroll-proportion="0.19396552" vertical-offset="0" max-vertical-offset="1440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/il/livewallpaper/LiveWallpaperService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="273" column="27" selection-start="12096" selection-end="12096" vertical-scroll-proportion="0.28595042" vertical-offset="4741" max-vertical-offset="7200">
+        <state line="273" column="27" selection-start="9866" selection-end="9866" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="6930">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3375#3391#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <folding />
         </state>
       </provider>
     </entry>
