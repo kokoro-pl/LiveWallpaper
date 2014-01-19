@@ -355,6 +355,7 @@ public class LiveWallpaperService extends WallpaperService implements SharedPref
 						}
 						mShouldResetSwimmingObject = false;
 					}
+                    canvas.save();
 					canvas.translate(translateX, 0);
 					long curTime = System.currentTimeMillis();
 					for (SwimmingObject o : swimmingObjects) {
