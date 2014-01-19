@@ -168,29 +168,38 @@ public class LiveWallpaperService extends WallpaperService implements SharedPref
             // Raw height and width of image
             final int height = options.outHeight;
             final int width = options.outWidth;
-            int inSampleSize = 1;
+//            int inSampleSize = 1;
 
             float scaleTo = getScaleDimension(options, width, height);
             int reqWidth = (int) (width * scaleTo);
             int reqHeight = (int) (height * scaleTo);
 
-            if (height > reqHeight || width > reqWidth) {
-                int heightRatio = Math.round((float) height / (float) reqHeight);
-                int widthRatio = Math.round((float) width / (float) reqWidth);
-                inSampleSize = heightRatio < widthRatio ? heightRatio : widthRatio;
-            }
-            options.inSampleSize = inSampleSize;
+//            if (options.outHeight > reqHeight || options.outWidth > reqWidth) {
+//                inSampleSize = (int)Math.pow(2, (int) Math.round(Math.log(Math.max(reqHeight,reqWidth) /
+//                        (double) Math.max(options.outHeight, options.outWidth)) / Math.log(0.5)));
+//            }
+//            if (height > reqHeight || width > reqWidth) {
+//                int heightRatio = Math.round((float) height / (float) reqHeight);
+//                int widthRatio = Math.round((float) width / (float) reqWidth);
+//                inSampleSize = heightRatio < widthRatio ? heightRatio : widthRatio;
+//            }
+//            Log.i("IL", "inSampleSize " + inSampleSize);
+//            options.inSampleSize = inSampleSize;
 
             // Decode bitmap with inSampleSize set
-            options.inJustDecodeBounds = false;
-            options.inDither = false;
-            options.inPurgeable = true;
-            Bitmap roughBitmap = BitmapFactory.decodeResource(res, resId, options);
+            final BitmapFactory.Options options2 = new BitmapFactory.Options();
+            options2.inDither = false;
+            options2.inPurgeable = true;
+            options2.inInputShareable = true;
+            Bitmap roughBitmap = BitmapFactory.decodeResource(res, resId, options2);
 
-            Bitmap scaledBitmap;
+//            Bitmap scaledBitmap;
             while (true) {
                 try {
-                    scaledBitmap = Bitmap.createScaledBitmap(roughBitmap, reqWidth, reqHeight, true);
+//                    Log.i("IL", "createScaledBitmap!!! reqWidth=" + reqWidth + " " + options.outWidth +
+//                            "reqHeight=" + reqHeight + " " + options.outHeight
+//                            + " inSampleSize=" + inSampleSize );
+                    roughBitmap = Bitmap.createScaledBitmap(roughBitmap, reqWidth, reqHeight, false);
                     break;
                 } catch (OutOfMemoryError e) {
                     try {
@@ -200,10 +209,10 @@ public class LiveWallpaperService extends WallpaperService implements SharedPref
                     }
                 }
             }
-            roughBitmap.recycle();
-            roughBitmap = null;
+//            roughBitmap.recycle();
+//            roughBitmap = null;
 
-            return scaledBitmap;
+            return roughBitmap;
         }
 
         @Override
@@ -324,7 +333,11 @@ public class LiveWallpaperService extends WallpaperService implements SharedPref
             Canvas canvas = null;
             synchronized (mSurfaceHolder) {
                 try {
-                    canvas = mSurfaceHolder.lockCanvas(null);
+                    try{
+                        canvas = mSurfaceHolder.lockCanvas(null);
+                    } catch (Exception e){
+                        Log.i("IL", "error " + e);
+                    }
                     if (canvas == null) {
                         return;
                     }
@@ -356,6 +369,7 @@ public class LiveWallpaperService extends WallpaperService implements SharedPref
                         }
                         mShouldResetSwimmingObject = false;
                     }
+                    canvas.save();
                     canvas.translate(translateX, 0);
                     long curTime = System.currentTimeMillis();
                     for (SwimmingObject o : swimmingObjects) {
