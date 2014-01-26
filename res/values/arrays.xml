@@ -1,72 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="settings_list_0to10">
-        <item name="0">0</item>
-        <item name="1">1</item>
-        <item name="2">2</item>
-        <item name="3">3</item>
-        <item name="4">4</item>
-        <item name="5">5</item>
-        <item name="6">6</item>
-        <item name="7">7</item>
-        <item name="8">8</item>
-        <item name="9">9</item>
-        <item name="10">10</item>
+
+    <string-array name="settings_list_0to10">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
     </string-array>
     <string-array name="settings_list_0to20">
-        <item name="0">0</item>
-        <item name="1">1</item>
-        <item name="2">2</item>
-        <item name="3">3</item>
-        <item name="4">4</item>
-        <item name="5">5</item>
-        <item name="6">6</item>
-        <item name="7">7</item>
-        <item name="8">8</item>
-        <item name="9">9</item>
-        <item name="10">10</item>
-        <item name="11">11</item>
-        <item name="12">12</item>
-        <item name="13">13</item>
-        <item name="14">14</item>
-        <item name="15">15</item>
-        <item name="16">16</item>
-        <item name="17">17</item>
-        <item name="18">18</item>
-        <item name="19">19</item>
-        <item name="20">20</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
     </string-array>
     <string-array name="settings_list_1to30">
-        <item name="1">1</item>
-        <item name="2">2</item>
-        <item name="3">3</item>
-        <item name="4">4</item>
-        <item name="5">5</item>
-        <item name="6">6</item>
-        <item name="7">7</item>
-        <item name="8">8</item>
-        <item name="9">9</item>
-        <item name="10">10</item>
-        <item name="11">11</item>
-        <item name="12">12</item>
-        <item name="13">13</item>
-        <item name="14">14</item>
-        <item name="15">15</item>
-        <item name="16">16</item>
-        <item name="17">17</item>
-        <item name="18">18</item>
-        <item name="19">19</item>
-        <item name="20">20</item>
-        <item name="21">21</item>
-        <item name="22">22</item>
-        <item name="23">23</item>
-        <item name="24">24</item>
-        <item name="25">25</item>
-        <item name="26">26</item>
-        <item name="27">27</item>
-        <item name="28">28</item>
-        <item name="29">29</item>
-        <item name="30">30</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
     </string-array>
 
 </resources>
